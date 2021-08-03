@@ -34,9 +34,11 @@ body {
     font-weight: bold;
 }
 
-.record-container{
+#record-container{
     align-self: center;
     width: 525px;
     padding: 25px;
     background: white;
+    display: flex;
+    flex-direction: column;
 }
