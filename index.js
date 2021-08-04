@@ -1,8 +1,5 @@
-const Text = document.getElementById("inputText").value;
-const data = document.getElementById("listCheckBox");
-const submitButton = document.getElementById("addButton");
-
+let records = document.getElementById("showRecords");
+let text = document.getElementById("inputText").value;
 
 function addRecord(){
-
 }
