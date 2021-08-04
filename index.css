@@ -1,5 +1,7 @@
 body {
     background-color: cyan;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -32,7 +34,9 @@ body {
     font-weight: bold;
 }
 
-.chcekbox-area {
-    margin-top: 30px;
-    text-align: center;
+.record-container{
+    align-self: center;
+    width: 525px;
+    padding: 25px;
+    background: white;
 }
