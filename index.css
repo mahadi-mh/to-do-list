@@ -1,0 +1,38 @@
+body {
+    background-color: cyan;
+}
+
+.header {
+    text-align: center;
+    font-size: 70px;
+    color: tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-format {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#inputText {
+    height: 65px;
+    width: 500px;
+    background: rgb(34, 31, 31);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#addButton {
+    height: 70px;
+    width: 60px;
+    background: rgb(7, 144, 168);
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.chcekbox-area {
+    margin-top: 30px;
+    text-align: center;
+}
