@@ -1,11 +1,8 @@
-var Text = document.getElementById("inputText").value;
-var storeData = "";
+const Text = document.getElementById("inputText").value;
+const data = document.getElementById("listCheckBox");
+const submitButton = document.getElementById("addButton");
 
-var data = document.getElementById("listCheckBox");
 
-var submitButton = document.getElementById("addButton");
-console.log(Text);
-submitButton.addEventListener("click", function() {
-    storeData += "<li>" + Text + "</li>";
-    data.innerText = storeData;
-})
+function addRecord(){
+
+}
