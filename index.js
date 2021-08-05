@@ -5,12 +5,15 @@ let count = 0;
 let records = [];
 
 
-function addRecord(){
-    container.appendChild(internalConatiner())   //hold checkbox and the 
+function addRecord() {
+    let recordText = container.appendChild(internalConatiner()); //hold checkbox and the 
+    recordText.addEventListener("click", function() {
+        recordText.style.display = "none";
+    })
+
 }
 
-
-function internalConatiner(){
+function internalConatiner() {
     let div = document.createElement('DIV');
     styleInternalConatainer(div);
 
@@ -21,7 +24,7 @@ function internalConatiner(){
 }
 
 
-function styleInternalConatainer(div){
+function styleInternalConatainer(div) {
     let divStyle = div.style;
 
     divStyle.width = "525px";
@@ -34,7 +37,7 @@ function styleInternalConatainer(div){
 }
 
 
-function to_doNote(){
+function to_doNote() {
     let paragraph = document.createElement('P');
     paragraph.textContent = input.value;
 
