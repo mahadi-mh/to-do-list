@@ -12,7 +12,6 @@ function addRecord(){
     }
 
     container.appendChild(records[count-1]);
-    records[count-1].addEventListener("click",cutTheSentence)
 }
 
 
@@ -23,8 +22,4 @@ function addingCheckbox() {
     newCheckbox.style.marginRight = "10px";
 
     return newCheckbox;
-}
-
-function cutTheSentence() {
-    //after clicking the checkbox the sentence will be cutted.
 }
