@@ -1,13 +1,37 @@
-body {
-    background-color: cyan;
+/* body {
+    background-color: #222436;
     display: flex;
     flex-direction: column;
+} */
+
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+}
+
+h1,
+h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    color: #888;
+    font-size: 2em;
 }
 
 .header {
     text-align: center;
     font-size: 70px;
-    color: tomato;
+    color: rgb(250, 231, 231);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -19,26 +43,32 @@ body {
 #inputText {
     height: 65px;
     width: 500px;
-    background: rgb(34, 31, 31);
+    background: #212529;
     color: white;
     font-size: 30px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: 1px solid #212529;
 }
 
 #addButton {
     height: 70px;
     width: 60px;
-    background: rgb(7, 144, 168);
+    background: #212529;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     font-size: 30px;
     color: white;
     font-weight: bold;
+    border: 1px solid #212529;
 }
 
-#record-container{
+#record-container {
+    margin-top: 30px;
     align-self: center;
     width: 525px;
     padding: 25px;
-    background: white;
+    background: #212529;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: flex;
     flex-direction: column;
 }
