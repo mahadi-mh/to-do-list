@@ -21,8 +21,6 @@ function addRecord() {
     crossIcon.addEventListener("click", function() {
         recordText.style.display = "none";
     })
-
-
 }
 
 //function for internal Container Style
